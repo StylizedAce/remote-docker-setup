@@ -26,8 +26,8 @@ htpasswd -nbm <username> <password>
 ## step 3. copy the hash into your compose file like so
 
 ### Take this last string (including admin and the period at the end)
-![img.png](img.png)
+![img.png](images/img.png)
 
 and put it into your compose file like so:
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
