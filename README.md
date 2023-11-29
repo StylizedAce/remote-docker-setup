@@ -21,7 +21,7 @@ follow the prompts (it'll ask Y/N and which package, just say yes and choose the
 htpasswd -nbm <username> <password>
 ```
 
-# OBS: username and password is replaced with whatever username and password you would like to hash into a "key"
+# OBS: username and password is replaced with whatever username and password you would like to hash into a "key" (and remove the "<>" after )
 
 ## step 3. copy the hash into your compose file like so
 
