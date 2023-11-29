@@ -5,7 +5,7 @@
 Line 29: provider is digitalocean  
 Line 31: should be your own email, personal email is fine  
 Line 32: I already set for you, leave that as is, but it loads your certificates    
-Line 35: should be your DigitalOcean Auth token, which you can generate on the side  
+Line 35: should be your DigitalOcean Auth token, which you can generate on digitalOcean website.   
  - digitalOcean > API > Generate Token > YES TO READ AND YES TO WRITE > GENERATE.)  
 
 Line 53: should be an "endpoint of your choice, i chose Host('traefik.stylizedace.dk')
