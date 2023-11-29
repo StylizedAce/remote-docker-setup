@@ -32,7 +32,8 @@ services:
       - TRAEFIK_CERTIFICATESRESOLVERS_MYRESOLVER_ACME_STORAGE=/etc/traefik/acme/acme.json # Stores the Let's Encrypt certificate in the docker volume
 
       # Digital Ocean configuration
-      - DO_AUTH_TOKEN=dop_v1_bb9f083a15bdac0c4db5a42ebc2b7239faaa65c79d870e29e4a737194c12afcd # Digital Ocean API Token
+      - DO_AUTH_TOKEN=dop_v1_bb9f083a15bdac0c4db5a42ebc2b7239faaa65c79d870e29e4a737194c12afcd # INSERT DIGITAL OCEAN API TOKEN, which you can generate on the site 
+      # (digitalOcean > API > Generate Token > YES TO READ AND YES TO WRITE > GENERATE.)
     ports: # Expose ports 80 and 443
       - "80:80"
       - "443:443"
